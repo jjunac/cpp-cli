@@ -2,7 +2,7 @@
 #### CLI for C++ project by Jeremy Junac
 
 ## Prerequisites
-The CLI itself hasn't any dependencies, but if you want to use all the functionalities, you need :
+The CLI only need **Python 2.7**. But if you want to use all the functionalities, you will also need :
 * make
 * gcc/g++
 * gdb
@@ -32,7 +32,13 @@ cpp-cli g class MyFirstClass MySecondClass MyThirdClass         # using the alia
 ## VSCode shortcuts
 
 ### Building
+Default is Ctrl+B.<br/>
+Debugging and launching automatically launch the build task.
 
 ### Debugging
+Default is F5.<br/>
+Automatically launch the build task.
 
 ### Launching without debug
+Default is Ctrl+F5.<br/>
+Automatically launch the build task.
