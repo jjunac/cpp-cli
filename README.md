@@ -8,6 +8,15 @@ The CLI only need **Python 2.7**. But if you want to use all the functionalities
 * gdb
 * VSCode 
 
+## Installation
+```bash
+git clone https://github.com/Taken0711/cpp-cli.git
+```
+If you want to use the CLI from anywhere, you can put a link in your $PATH (assuming that ~/bin is in your $PATH):
+```bash
+ln -s ./cpp-cli.py ~/bin/cpp-cli
+```
+
 ## Usage
 
 ### Generating a new project with Makefile and VSCode settings file
