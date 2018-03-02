@@ -4,14 +4,10 @@ def generate(name):
     makefile = open("{}/Makefile".format(name), 'w')
     makefile.write("""\
 #=======================================================================
-# Basic C++: makefile example to use as a reminder or as a template
-#-----------------------------------------------------------------------
-# Julien DeAntoni --- No Copyright 2016
-# $Id: convenient Makefile but muist be tuned for templated project 
-#      v0.2 2016/09/06
+# Basic C++ Makefile
 #=======================================================================
 
-#only ok for project with no templated classes
+#Only works for projects with no template classes
 
 #compiler
 COMPILER = g++
@@ -47,6 +43,7 @@ $(EXE_NAME): $(LINKOBJ)
 # cleanup
 clean:
 \trm -f $(LINKOBJ)
+\trm $(EXE_NAME)
 """.format(name))
     makefile.close()
 
